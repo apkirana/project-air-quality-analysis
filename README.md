@@ -1,6 +1,8 @@
 # Air Quality Analysis
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQJCGNjdOgIsuFKvBb-by847hFUxXAchbm2nSbBkQob0Ce5wO24Tqpdp183IQejpzOOOWBa3_uTLk_n/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+## Presentation
+[Presentation Link](https://docs.google.com/presentation/d/e/2PACX-1vQJCGNjdOgIsuFKvBb-by847hFUxXAchbm2nSbBkQob0Ce5wO24Tqpdp183IQejpzOOOWBa3_uTLk_n/pub?start=true&loop=false&delayms=3000)
+
 
 ## Overview
 This project aims to analyze air quality by exploring the relationship between PM2.5 (fine particulate matter) levels and the Air Quality Index (AQI). Utilizing statistical models, the project quantifies how changes in PM2.5 concentrations affect AQI values, offering insights into the potential health and environmental impacts.

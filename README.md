@@ -1,50 +1,42 @@
-# air-quality-analysis
-This project aims to analyze air quality data from major cities in Indonesia. The analysis includes data cleaning, exploration, visualization, and building predictive models to classify air quality levels. 
+# Air Quality Analysis
 
+## Overview
+This project aims to analyze air quality by exploring the relationship between PM2.5 (fine particulate matter) levels and the Air Quality Index (AQI). Utilizing statistical models, the project quantifies how changes in PM2.5 concentrations affect AQI values, offering insights into the potential health and environmental impacts.
 
-# Air Quality Analysis in Major Cities of Indonesia
+## Key Findings
+- **Strong Correlation**: Our analysis reveals a strong positive correlation (0.990) between PM2.5 and AQI, indicating that as PM2.5 increases, the AQI worsens, highlighting significant health risks.
+- **Model Performance**: The regression model achieved a high \( R^2 \) score of 0.926, suggesting that 92.6% of the variance in AQI is predictable from PM2.5 levels.
+- **Error Metrics**: The model’s Mean Squared Error (MSE) is 267.578, which means the model predictions are generally close to the actual data points.
 
-## Project Description
+## Technologies Used
+- **Python**: For all computational and data processing tasks.
+- **Jupyter Notebook**: To document and share the project workflow.
+- **Libraries**: Pandas for data manipulation, Matplotlib and Seaborn for data visualization.
 
-This project aims to analyze air quality data from major cities in Indonesia. The analysis includes data cleaning, exploration, visualization, and building predictive models to classify air quality levels. This project demonstrates skills in data processing, machine learning, and data visualization using Python.
+## Repository Structure
+air_quality.ipynb   - Main project notebook containing the analysis.
+data/               - Folder containing data files used in the analysis.
+images/             - Generated plots and figures used in the analysis.
+README.md           - Description and overview of the project.
 
-## Table of Contents
-1. [Data Collection](#data-collection)
-2. [Data Cleaning](#data-cleaning)
-3. [Data Exploration](#data-exploration)
-4. [Feature Engineering](#feature-engineering)
-5. [Data Modeling](#data-modeling)
-6. [Visualization](#visualization)
-7. [Deployment](#deployment)
+## Installation
+To set up a local development environment and run this notebook, follow these steps:
+1. Clone the repository: git clone https://github.com/apkirana/air-quality-analysis.git
+2. Install required Python packages: pip install pandas matplotlib seaborn notebook
+3. Navigate to the project directory and start Jupyter Notebook:
+   cd air-quality-analysis
+   jupyter notebook
 
-## Data Collection
-The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com/), containing air quality indices for various cities.
+## Usage
+Open the `air_quality.ipynb` notebook in Jupyter to view and run the analysis. Each cell in the notebook includes comments explaining the purpose of the code, making it easy to follow or adapt for related projects.
 
-## Data Cleaning
-In this step, we handle missing values and anomalies in the dataset.
+## Contributing
+Contributions to enhance the analysis or improve the predictive models are welcome. Please fork the repository and submit a pull request with your changes.
 
-## Data Exploration
-Exploratory Data Analysis (EDA) is performed to understand the data distribution and identify patterns.
-
-## Feature Engineering
-New features are created to improve the predictive model.
-
-## Data Modeling
-Machine learning models such as Decision Trees, Random Forest, and Logistic Regression are used to classify air quality levels. Models are evaluated using metrics like accuracy, precision, recall, and F1-score.
-
-## Visualization
-Interactive visualizations are created using Plotly to present findings. Geospatial data is used to visualize air quality across different cities.
-
-## Deployment
-The model is deployed using Flask to create a simple web application that predicts air quality levels based on user input.
-
-## How to Run
-1. Clone the repository.
-2. Install the required packages using `pip install -r requirements.txt`.
-3. Run the Jupyter notebooks in the `notebooks/` folder to follow the analysis steps.
-4. To run the web application, navigate to the `app/` folder and execute `python app.py`.
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-- **Email:** puspakirana@polinema.ac.id
+- **Project Link**: [Air Quality Analysis on GitHub](https://github.com/apkirana/air-quality-analysis)
 - **LinkedIn:** [Annisa Puspa Kirana](https://id.linkedin.com/in/annisapuspakirana/en)
 - **Social Links:** [linktr.ee/puspakirana](http://linktr.ee/puspakirana)
